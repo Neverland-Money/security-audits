@@ -14,8 +14,8 @@ Neverland contracts undergo continuous third-party and internal reviews to ensur
 
 | Date                | Description                                                                                                                                                                                                                                                                                                                              | Report                                                                       | Announcement                                                     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **August 22, 2025** | Initial comprehensive audit of Neverland’s core contracts including DustLock, DustRewardsController, RevenueReward, and core libraries. The assessment identified critical and high-risk issues related to withdrawal logic, voting power recalculation, and reward accounting. All findings were remediated and verified in the retest. | [View Report](audits/2025-08-22_neverland-contracts_composable-security.pdf) | [Tweet](https://x.com/Composable_Sec/status/1960609083075055798) |
-| **October 10, 2025** | Follow-up audit expanding scope to self-repaying loans, vault system, and new reward mechanics. No critical or high-risk issues found. All medium and low findings were fixed and verified. Major improvements included dependency hardening, renounceOwnership protection, and gas-efficiency updates.                                  | [View Report](audits/2025-10-10_neverland-contracts_composable-security.pdf) | [Tweet](https://x.com/Composable_Sec/status/1980906736581050785) |
+| **August 22, 2025** | Initial comprehensive audit of Neverland’s core contracts including DustLock, DustRewardsController, RevenueReward, and core libraries. The assessment identified critical and high-risk issues related to withdrawal logic, voting power recalculation, and reward accounting. All findings were remediated and verified in the retest. | [View Report](tokenomics-and-revenue/2025-08-22_ComposableSecurity_NeverlandContracts.pdf) | [Tweet](https://x.com/Composable_Sec/status/1960609083075055798) |
+| **October 10, 2025** | Follow-up audit expanding scope to self-repaying loans, vault system, and new reward mechanics. No critical or high-risk issues found. All medium and low findings were fixed and verified. Major improvements included dependency hardening, renounceOwnership protection, and gas-efficiency updates.                                  | [View Report](tokenomics-and-revenue/2025-10-10_ComposableSecurity_NeverlandContracts.pdf) | [Tweet](https://x.com/Composable_Sec/status/1980906736581050785) |
 
 ## Audit Evolution and Improvements
 
@@ -39,14 +39,14 @@ Neverland treats audits as living documents, not marketing material. Each issue,
 ### Lending System
 
 Neverland's lending protocol builds on [Aave V3](https://aave.com), inheriting its audited base architecture and proven security guarantees.
-Aave’s full set of security reports can be found at [aave.com/security](https://aave.com/security).
+Aave’s full set of security reports can be found [here](lending-system) and at [aave.com/security](https://aave.com/security).
 
 ## Usage
 
 Browse the audits directory to access reports.
 
 Files follow this naming convention:
-`<date>_<project-name>_<auditor-name>.pdf`
+`<date>_<auditor-name>_<project-name>.pdf`
 
 ## Disclaimer
 
