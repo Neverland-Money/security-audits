@@ -17,6 +17,14 @@ Neverland contracts undergo continuous third-party and internal reviews to ensur
 | **August 22, 2025** | Initial comprehensive audit of Neverland’s core contracts including DustLock, DustRewardsController, RevenueReward, and core libraries. The assessment identified critical and high-risk issues related to withdrawal logic, voting power recalculation, and reward accounting. All findings were remediated and verified in the retest. | [View Report](tokenomics-and-revenue/2025-08-22_ComposableSecurity_NeverlandContracts.pdf) | [Tweet](https://x.com/Composable_Sec/status/1960609083075055798) |
 | **October 10, 2025** | Follow-up audit expanding scope to self-repaying loans, vault system, and new reward mechanics. No critical or high-risk issues found. All medium and low findings were fixed and verified. Major improvements included dependency hardening, renounceOwnership protection, and gas-efficiency updates.                                  | [View Report](tokenomics-and-revenue/2025-10-10_ComposableSecurity_NeverlandContracts.pdf) | [Tweet](https://x.com/Composable_Sec/status/1980906736581050785) |
 
+### Price Oracle Contracts
+
+**Auditor:** [Octane](https://octane.finance/)
+
+| Date                | Description                                                                                                                                                                                                                                                                                                                              | Report                                                                       | Announcement                                                     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **February 17, 2026** | Comprehensive audit of Neverland's price oracle contracts. The assessment focused on oracle security, price manipulation resistance, and data integrity mechanisms. All findings were reviewed and appropriate security measures were implemented to ensure reliable price feeds for the protocol. | [View Report](price-oracles/2026-02-17_Octane_NeverlandContractsOracles.pdf) | - |
+
 ## Audit Evolution and Improvements
 
 Between August and October 2025, Neverland completed a full second-round security review after introducing new lending and vault features.
